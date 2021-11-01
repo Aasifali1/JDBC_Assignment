@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     final static String className = "com.mysql.cj.jdbc.Driver";
-    final static String dbUrl = "jdbc:mysql://localhost:3306/Shopping";
+    final static String dbUrl = "jdbc:mysql://localhost:3306/shopping";
     final static String dbUser = "root";
     final static String dbPassword = "root";
 

@@ -34,7 +34,7 @@ public class Shopping {
         try {
             stmt = con.prepareStatement("select products.product_id, products.product_name, " +
                     "cart.quantity,cart.quantity*products.price as Total from products,cart " +
-                    "where products.product_id= cart.product_id order by quantity desc");
+                    "where products.product_id= cart.product_id ");
             ResultSet rs = stmt.executeQuery();
             System.out.println("========================== Cart Items ========================");
             System.out.print("Product ID\t:\tQuantity\t\t:\tTotal\t\t:\t Product Name\n");
@@ -53,7 +53,7 @@ public class Shopping {
         try{
             stmt = con.prepareStatement("select products.product_id, " +
                     "cart.quantity,cart.quantity*products.price as Total from products,cart " +
-                    "where products.product_id= cart.product_id order by quantity desc");
+                    "where products.product_id= cart.product_id");
             rs=stmt.executeQuery();
             System.out.println("=============== Checkout ================");
             System.out.print("Product ID\t:\tQuantity\t:\tTotal\n");
