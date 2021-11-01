@@ -5,7 +5,7 @@
 2. Find the product name which as sold the most. 																									
 3. Find all the products which are not yet sold. 																									
 
-## The example data shown should be changed in before being inserted into the table. e.g. 
+### The example data shown should be changed in before being inserted into the table. e.g. 
 
 
 If your name is "Akash" then product table entries should be like below: 
